@@ -27,7 +27,7 @@ put micro-US and cch-thrusps dataset in
 │   │   │   ├── R50+ViT-B_16.npz
 │   │   │   ├── *.npz
 │
-├── hefflpnet
+├── TransUNet
 ```
 run python preprocessing.py for micro-US dataset
 
