@@ -26,12 +26,14 @@ data
 │   │   │   ├── *.npz
 │
 ├── TransUNet
-
+```
 run python preprocessing.py for micro-US dataset
 
 and then:
+```plaintext
 python train_MicroUS.py
 python test_MicroUS.py
+```
 
 
 ### REF:https://github.com/mirthAI/MicroSegNet
