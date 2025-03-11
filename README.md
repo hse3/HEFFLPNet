@@ -9,6 +9,7 @@ download data at https://github.com/mirthAI/MicroSegNet and https://github.com/S
 download Google pre-trained ViT models at https://console.cloud.google.com/storage/browser/vit_models;tab=objects?pli=1&prefix=&forceOnObjectsSortingFiltering=false
 put micro-US and cch-thrusps dataset in 
 
+## Description
 - `data/` - Contains the dataset for micro-ultrasound prostate segmentation.
   - `train/` - Training dataset.
   - `test/` - Testing dataset.
