@@ -9,21 +9,23 @@ download data at https://github.com/mirthAI/MicroSegNet and https://github.com/S
 download Google pre-trained ViT models at https://console.cloud.google.com/storage/browser/vit_models;tab=objects?pli=1&prefix=&forceOnObjectsSortingFiltering=false
 put micro-US and cch-thrusps dataset in 
 
-## Description
-- `data/` - Contains the dataset for micro-ultrasound prostate segmentation.
-  - `train/` - Training dataset.
-  - `test/` - Testing dataset.
-    - `cch_image/` - Contains test images.
-    - `cch_mask/` - Contains test masks.
-  - `preprocessing.py` - Script for preprocessing the dataset.
-
-- `model/` - Stores model checkpoints.
-  - `vit_checkpoint/` - Vision Transformer (ViT) pre-trained checkpoints.
-  - `imagenet21k/` - Pre-trained ImageNet21k model weights.
-  - `R50+ViT-B_16.npz` - ResNet50 + ViT Base 16 model weights.
-  - `*.npz` - Other ViT model checkpoints.
-
-- `TransUNet/` - Contains the **TransUNet** model implementation.
+```plaintext
+data
+├── Micro_Ultrasound_Prostate_Segmentation_Dataset
+│   ├── train
+│   ├── test
+│   │   ├── ...
+│   │   ├── cch_image
+│   │   ├── cch_mask
+│   ├── preprocessing.py
+│
+├── model
+│   ├── vit_checkpoint
+│   │   ├── imagenet21k
+│   │   │   ├── R50+ViT-B_16.npz
+│   │   │   ├── *.npz
+│
+├── TransUNet
 
 run python preprocessing.py for micro-US dataset
 
