@@ -12,14 +12,14 @@ download Google pre-trained ViT models at https://console.cloud.google.com/stora
 put micro-US and cch-thrusps dataset in 
 
 ```plaintext
-data
-├── Micro_Ultrasound_Prostate_Segmentation_Dataset
-│   ├── train
-│   ├── test
-│   │   ├── ...
-│   │   ├── cch_image
-│   │   ├── cch_mask
-│   ├── preprocessing.py
+├── data
+│   ├── Micro_Ultrasound_Prostate_Segmentation_Dataset
+│   │   ├── train
+│   │	  └── test
+│   │     ├── ...
+│   │     ├── cch_image
+│   │     ├── cch_mask
+│   └── preprocessing.py
 │
 ├── model
 │   ├── vit_checkpoint
@@ -27,7 +27,7 @@ data
 │   │   │   ├── R50+ViT-B_16.npz
 │   │   │   ├── *.npz
 │
-├── TransUNet
+├── hefflpnet
 ```
 run python preprocessing.py for micro-US dataset
 
