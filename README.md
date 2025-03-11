@@ -8,6 +8,7 @@
 download data at https://github.com/mirthAI/MicroSegNet and https://github.com/S-domain/Multi-Stage-FCN
 
 download Google pre-trained ViT models at https://console.cloud.google.com/storage/browser/vit_models;tab=objects?pli=1&prefix=&forceOnObjectsSortingFiltering=false
+
 put micro-US and cch-thrusps dataset in 
 
 ```plaintext
