@@ -9,14 +9,14 @@
 
 ### weight: https://drive.google.com/file/d/169jUNV_3BUKcnURf8yhSvCVbnEAzjQio/view?usp=drive_link
 
-### Usage:refer to: https://github.com/mirthAI/MicroSegNet
-
+### Dataset info:
 Two datasets of prostate used: An ultrasound dataset and a micro-ultrasound dataset.
 
 download micro-ultrasound dataset at https://github.com/mirthAI/MicroSegNet 
 
 and ultrasound dataset at https://github.com/S-domain/Multi-Stage-FCN
 
+### Usage:refer to: https://github.com/mirthAI/MicroSegNet
 download Google pre-trained ViT models at https://console.cloud.google.com/storage/browser/vit_models;tab=objects?pli=1&prefix=&forceOnObjectsSortingFiltering=false
 
 put micro-US and cch-thrusps dataset in 
