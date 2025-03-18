@@ -1,5 +1,6 @@
 # HEFFLPNet
 
+## Intro: 
 ## A transformer based unet for prostate segmentation on (micro-)us dataset 
 ### Title: Hierarchically Enhanced Feature Fusion and Loss Prevention for Prostate Segmentation on Micro-Ultrasound Images
 #### Three novel modules for feature fusion:
@@ -16,7 +17,7 @@ download micro-ultrasound dataset at https://github.com/mirthAI/MicroSegNet
 
 and ultrasound dataset at https://github.com/S-domain/Multi-Stage-FCN
 
-### Usage:refer to: https://github.com/mirthAI/MicroSegNet
+### Steps for implementation:
 download Google pre-trained ViT models at https://console.cloud.google.com/storage/browser/vit_models;tab=objects?pli=1&prefix=&forceOnObjectsSortingFiltering=false
 
 put micro-US and cch-thrusps dataset in 
