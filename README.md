@@ -1,7 +1,7 @@
 # HEFFLPNet
 
 ## A transformer based unet for prostate segmentation on (micro-)us dataset 
-# Hierarchically Enhanced Feature Fusion and Loss Prevention for Prostate Segmentation on Micro-Ultrasound Images
+### Hierarchically Enhanced Feature Fusion and Loss Prevention for Prostate Segmentation on Micro-Ultrasound Images
 Three novel modules for feature fusion:
 - Tri-Cross Attention with Feature Enhancement (TriCAFE)
 - Multi-Scale Prediction Map Attention (MSPMA)
