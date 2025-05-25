@@ -633,7 +633,6 @@ class ConvModule(nn.Module):
 # 论文地址：https://arxiv.org/pdf/2403.06258
 # 论文：Poly Kernel Inception Network for Remote Sensing Detection(CVPR 2024)
 # Github地址：https://github.com/NUST-Machine-Intelligence-Laboratory/PKINet
-# 全网最全100➕即插即用模块GitHub地址：https://github.com/ai-dawang/PlugNPlay-Modules
 # Poly Kernel Inception Block(PKIBlock)
 class InceptionBottleneck(nn.Module):
     """Bottleneck with Inception module"""
@@ -762,7 +761,6 @@ class ElementScale(nn.Module):
 # 论文：MogaNet: Multi-order Gated Aggregation Network (ICLR 2024)
 # 论文地址：https://arxiv.org/pdf/2211.03295
 # Github地址：https://github.com/Westlake-AI/MogaNet
-# 全网最全100➕即插即用模块GitHub地址：https://github.com/ai-dawang/PlugNPlay-Modules
 # FFN with Channel Aggregation
 class ChannelAggregationFFN(nn.Module):
     """An implementation of FFN with Channel Aggregation.
