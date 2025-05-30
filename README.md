@@ -18,7 +18,7 @@ Two datasets of prostate used: An ultrasound dataset and a micro-ultrasound data
 
 download micro-ultrasound dataset at https://github.com/mirthAI/MicroSegNet 
 
-and ultrasound dataset at https://github.com/S-domain/Multi-Stage-FCN
+and ultrasound dataset source is at paper: Multi-stage fully convolutional network for precise prostate segmentation in ultrasound images
 
 ### 4. Code information
 This project is on the basis of MicroSegNet: https://github.com/mirthAI/MicroSegNet 
